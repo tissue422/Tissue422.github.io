@@ -82,8 +82,8 @@ new Vue({
                     console.log("學分獲得!");
                     this.status = "學分獲得!"
                 } else if (this.playerHealth == this.monsterHealth) {
-                    console.log("Tie!");
-                    this.status = "Tie!"
+                    console.log("壓線完成!");
+                    this.status = "壓線完成!"
                 } else {
                     console.log("被當掉!");
                     this.status = "被當掉!"
